@@ -1,5 +1,6 @@
 todo = []
 
+
 x = input("what to add to list?")
 
 todo.append(x)
