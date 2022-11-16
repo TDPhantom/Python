@@ -15,14 +15,18 @@ print(my_list)
 del my_list[3]
 print(my_list)
 
-my_random = ("blue", "green", "red", "orange", "purple")
+print(len(my_list))
+print(my_list)
+my_list.sort() # Goes to A - Z
 
-print(my_random)
+print(my_list)
 
+my_list.reverse() # goes to Z - A 
+print(my_list)
 
+Lists = ['Life','Death','Yin','Yang']
+print(my_list + Lists)
 
-del my_random[4]
-print(my_random)
+print(' | '.join(my_list + Lists))
 
-my_random[5] = "True"
-print(my_random)
+print('anna','wesley','saint'.split(''))
