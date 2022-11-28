@@ -17,8 +17,8 @@ movies = ['movie', 'movie' , 'moxie' , 'foxie' , 'monke']
 #     print(b)
 
 
-for i in range(5,10):
-    print(i)
+# for i in range(5,10):
+#     print(i)
 
 
 
