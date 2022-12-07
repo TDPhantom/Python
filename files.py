@@ -1,13 +1,16 @@
-my_file = open('Ansumana.txt', "r+")
+my_file = open('todo.py', "r+")
 
-# print(my_file.readlines())
+print(my_file.readlines())
 
 
 # print("hello")
 # print('world')
 
+# my_file.writelines("im writing from python\n")
 
-for line in my_file.readlines():
-    print(line, end="")
+# my_file.close()
 
-    my_file.writelines(["im writing from python"])
+# my_file = open("todo.py")
+
+# for line in my_file.readlines():
+#    print(line, end="")

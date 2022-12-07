@@ -1,9 +1,10 @@
-todo = []
+todos = []
 
 
-x = input("what to add to list?")
+while True:
+ print("your todos are:")
+ print(todos)
 
-todo.append(x)
+ x = input("what todo would you like to add")
+ todos.append(x)
 
-print("your todo list is")
-print(todo)
