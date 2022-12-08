@@ -18,3 +18,13 @@ print(Kalyn.species)
 print(Kalyn.name)
 print(Kalyn.age)
 Kalyn.hi()
+
+# Class Inheritance: Inheritance allows us to define a class that inherits all the m othods and properties from another class
+
+class Teacher(Person):
+    role = 'teacher'
+
+forlenza = Teacher("Forlenza , 184")
+print(forlenza.role)
+
+forlenza.hi
