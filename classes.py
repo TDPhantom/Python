@@ -7,13 +7,17 @@ class Person:
      print("Hi my name is" + self.name)
 
 
-Ansumana = Person("Ansumana", 17)
+class Students(Person):
+    role = 'student'
+
+
+Ansumana = Students("Ansumana", 17)
 print(Ansumana.species)
 print(Ansumana.name)
 print(Ansumana.age)
 Ansumana.hi()
 
-Kalyn = Person("Kalyn", 17)
+Kalyn = Students("Kalyn", 17)
 print(Kalyn.species)
 print(Kalyn.name)
 print(Kalyn.age)
@@ -24,7 +28,11 @@ Kalyn.hi()
 class Teacher(Person):
     role = 'teacher'
 
-forlenza = Teacher("Forlenza , 184")
+    def hi(self): 
+        print ("Hi my name is Mr." + self.name)
+
+forlenza = Teacher("Forlenza " , 184)
 print(forlenza.role)
 
-forlenza.hi
+forlenza.hi()
+
